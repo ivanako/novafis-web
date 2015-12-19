@@ -1,0 +1,209 @@
+html, body {
+    height: 100%;
+    min-width: 100%;
+    margin: 0;
+    font-family: Verdana;
+    font-size: 10pt;
+    background-image: -webkit-linear-gradient(rgba(37,161,175,1), rgba(115,100,90,1)); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(rgba(37,161,175,1), rgba(115,100,90,1)); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(rgba(37,161,175,1), rgba(115,100,90,1)); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(rgba(37,161,175,1), rgba(115,100,90,1)); /* Standard syntax (must be last) */
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    z-index: 1000;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    font-size: 8pt;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    margin: 10px;
+    height: 30px;
+}
+nav ul {
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+nav ul li a {
+    vertical-align: middle;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+}
+
+.logo-nav {
+    height: 25px;
+    width: 100px;
+}
+
+
+
+.contents {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 25px;
+    text-align: justify;
+    background-color: rgba(255,255,255,1); /* blanco */
+	border-radius: 15px;
+    overflow: hidden;
+}
+
+
+#hero {
+    /*background-color: rgba(255,255,255,1);*/ /* blanco */
+    text-align: center;
+    padding-bottom: 5px;
+}
+.logo {
+    height: 25%;/*220px;*/
+    width: 50%;/*800px;*/
+}
+
+
+
+#intro {
+    
+}
+#facilities {
+    /*background-color: rgba(37,161,175,1);*/
+}
+#services {
+    
+}
+#collaborators {
+    
+}
+#location {
+    /*padding-bottom: 20px;*/
+}
+#staff {
+    padding-bottom: 20px;
+}
+
+section ul li  {
+    list-style-type: circle;
+}
+
+
+#serviceTable, #priceTable, #collaboratorTable, #staffTable, #alt-caption table {
+	font-family: Verdana;
+    font-size: 10pt;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+#serviceTable .serviceIndent
+{
+	padding-left: 20px;
+}
+#priceTable td
+{
+	border: 1px solid rgba(0,0,0,1);
+}
+
+#collaboratorTable td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#staffTable img {
+	height: 100px;
+	width: 150px;
+}
+#staffTable .photo {
+	text-align: center;
+	vertical-align: middle;
+}
+#staffTable .cv {
+	text-align: justify;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+#carousel-wrapper {
+	margin: 0 auto;
+}
+
+figure div
+{
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.imgFacilities /*figure div img*/
+{
+    height: 220px;
+    width: 270px;
+}
+figcaption
+{
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+.address
+{
+    display: inline-block;
+    margin: 5px 10px;
+    text-align: center;
+}
+.social
+{
+    margin: 5px 10px;
+    float: right;
+}
+.social-icon
+{
+    height: 25px;
+    width: 25px;
+}
+
+#map
+{
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+#pAddress
+{
+	padding-left: 10%;
+}
+#meansTransport
+{
+	padding-left: 10%;
+    font-family: Verdana;
+    font-size: 10pt;	
+}
+#meansTransport th
+{
+	text-align: left;
+}

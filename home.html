@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html />
+
+<html>
+    <head>
+        <title>Novafis</title>
+
+        <meta charset="UTF-8">
+
+        <link type="image/x-icon" rel="shortcut icon" href="Images/favicon.ico" />
+        <link type="image/x-icon" rel="icon" href="Images/favicon.ico" />
+        
+        <link type="text/css" rel="Stylesheet" href="Styles/nvfStyles.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#hero">
+                            <!--Logo pequeño-->
+                            <img src="Images/logo-small.png" alt="home" class="logo-nav"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#facilities">
+                            <span>Instalaciones</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services">
+                            <span>Servicios</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#collaborators">
+                            <span>Colaboradores</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#location">
+                            <span>Ubicación</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#staff">
+                            <span>Profesionales</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="hero" class="contents">
+            <img src="Images/logo-large.png" alt="Novafis" class="logo" />
+            <p style="float:right">Cita previa: 91 501 95 68 o 664 23 93 45</p>
+        </section>
+
+        <section id="intro" class="contents">
+            <p style="padding: 0px 10px"><strong>NOVAFIS FISIOTERAPIA</strong> es un centro creado en 2006, tras más de 6 años de experiencia en el sector sanitario privado.<br /><br />
+Nuestro objetivo es la recuperación funcional de las dolencias, tanto de las más cotidianas como de las derivadas de cualquier proceso traumático, deportivo o postoperatorio, a través de la aplicación de múltiples técnicas indicadas para ello, de forma ÉTICA, PROFESIONAL e INDIVIDUALIZADA.<br /><br />
+Nuestro pilar de trabajo es la terapia manual (Masoterapia), complementada con diversas herramientas de trabajo adquiridas a través de la formación continua a lo largo de los años de experiencia en la profesión.</p>
+        </section>
+
+        <section id="facilities" class="contents">
+            <h3>INSTALACIONES</h3>
+
+            <figure style="padding-left:20%">
+                <div>
+                    <img src="Images/instSalaEspera.jpg" class="imgFacilities" alt="Sala de espera" />
+                    <figcaption>Sala de espera</figcaption>
+                </div>
+                <div>
+                    <img src="Images/instCabinaTratamiento-2.jpg" class="imgFacilities" alt="Cabina individual de tratamiento" />
+                    <figcaption>Cabina individual de tratamiento</figcaption>
+                </div>
+                <div>
+                    <img src="Images/instSalaPolivalente.jpg" class="imgFacilities" alt="Sala polivalente" />
+                    <figcaption>Sala polivalente</figcaption>
+                </div>
+            </figure>
+
+            <ul style="float:left">
+                <li>SALA DE ESPERA, donde permanecer cómodamente hasta ser atendido por nuestros profesionales.</li>
+                <li>5 CABINAS INDIVIDUALES DE TRATAMIENTO, equipadas  con todo el material necesario para el paciente.</li>
+                <li>SALA POLIVALENTE, amplia y confortable, donde puede completarse el tratamiento recibido en las cabinas individuales.·</li>
+            </ul>
+        </section>
+
+        <section id="services" class="contents">
+            <h3>SERVICIOS y TARIFAS</h3>
+
+            <figure style="display: none">
+                <div id="divPsicoterapia">
+                    <img src="Images/psicoterapia.gif" style="cursor:hand; cursor:pointer" width="300" height="350" alt="TRX" />
+                    <!--<figcaption>Psicoterapia</figcaption>-->
+                </div>
+            </figure>
+
+            <figure>
+                <div style="float:left">
+                    <img src="Images/servTRX.jpg" width="200" height="350" alt="TRX" />
+                    <figcaption>TRX</figcaption>
+                </div>
+            </figure>
+
+            <table id="serviceTable" style="width:60%;">
+                <tr>
+                    <td><strong>FISIOTERAPIA</strong></td>
+                    <td><strong>OSTEOPATÍA</strong></td>
+                </tr>
+                <tr>
+                    <td class="serviceIndent">Masoterapia</td>
+                    <td><strong>ELECTROTERAPIA</strong></td>
+                </tr>
+                <tr>
+                    <td class="serviceIndent">Fibrolisis Instrumental</td>
+                    <td class="serviceIndent">Ultrasonido - Láser - Microondas</td>
+                </tr>
+                <tr>
+                    <td class="serviceIndent">Acupuntura</td>
+                    <td class="serviceIndent">Tecarterapia - Corrientes Terapéuticas</td>
+                </tr>
+                <tr>
+                    <td class="serviceIndent">Vendaje neuromuscular</td>
+                    <td><strong>PILATES SUELO</strong></td>
+                </tr>
+                <tr>
+                    <td class="serviceIndent">Vendaje funcional</td>
+                    <td><strong>TRX (Entrenamiento en suspensión)</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>PSICOTERAPIA</strong></td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+
+            <br /><br />
+
+            <table id="priceTable" style="width:30%;">
+                <thead>
+                    <tr>
+                        <td colspan="2" style="text-align:center"><strong>Precios</strong></td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td style="width:50%">Fisioterapia</td>
+                        <td>30 &#8364;/sesión</td>
+                    </tr>
+                    <tr>
+                        <td>Osteopatía</td>
+                        <td>50 &#8364;/sesión</td>
+                    </tr>
+                    <tr>
+                        <td>Electroterapia</td>
+                        <td>20 &#8364;/sesión</td>
+                    </tr>
+                    <tr>
+                        <td>Tecarterpia</td>
+                        <td>50 &#8364;/sesión</td>
+                    </tr>
+                    <tr>
+                        <td>Pilates y TRX</td>
+                        <td>50 &#8364;/mes</td>
+                    </tr>
+                    <tr>
+                        <td>Psicoterapia</td>
+                        <td>Primera consulta gratuita<br />Resto, consultar precio</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+
+            <h4 style="padding-left:30%">Horario de apertura</h4>
+            <p style="padding-left:30%">
+                De Lunes a Viernes 9:45 - 13:30 y 15:45 - 20:00. <strong>Cerramos los Miércoles por la mañana.</strong><br />
+                Previa petición de hora: 91 501 95 68 - 664 23 93 45
+            </p>
+        </section>
+
+        <section id="collaborators" class="contents">
+            <h3>COLABORADORES</h3>
+
+            <table id="collaboratorTable" style="width:80%">
+                <tr>
+                    <td><a href="http://casadorunningplan.com" target="_blank"><img src="Images/logoCasadoRunning.png" alt="Arturo Casado Running Plan" /></a></td>
+                    <td><a href="http://www.motorpress-iberica.es/" target="_blank"><img src="Images/logoMotorpress.gif" alt="Motorpress Ibérica" /></a></td>
+                </tr>
+                <tr>
+                    <td><a href="http://vgrunning.com/" target="_blank" title="Víctor García Running"><img src="Images/logoVGRunning.png" alt="VG Running"/></a></td>
+                    <td><a href="http://www.gredossandiego.com" target="_blank" title="Colegios Gredos San Diego"><img src="Images/logoCGSD.png" alt="Colegios Gredos San Diego" height="100" width="100"/></a></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a href="http://personalrunning.com" target="_blank"><img src="Images/logoPersonalRunning.png" alt="Personal Running"/></a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="photos" class="contents">
+            <h3>ALGUNOS DE NUESTROS PACIENTES</h3>
+
+            <div id="carousel-wrapper" style="width:50%">
+                <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="3000" data-cycle-caption="#alt-caption" data-cycle-caption-template="{{alt}}" style="width:800px; height:500px" data-cycle-pause-on-hover="true" data-cycle-center-horz=true data-cycle-center-vert=true>
+                    <img src="Images/carousel/Arturo Casado.jpg" alt="<table><tr><td style='width:20%; text-align:left'><strong>Arturo Casado</strong></td><td>Medalla de Oro en Campeonato Europeo de Atletismo A.L. en 1.500 m (Barcelona 2010)</td></tr><tr><td>&nbsp;</td><td>Medalla de Bronce en Campeonato Europeo de Atletismo P.C. en 1.500 m (Birmingham 2007)</td></tr><tr><td>&nbsp;</td><td>Medalla de Oro en Juegos del Mediterráneo A.L. en 1.500 m (Almería 2005)</td></tr></table>"/>
+                    <img src="Images/carousel/Alberto Garcia.jpg" alt="<table><tr><td style='width:20%; text-align:left'><strong>Alberto García</strong></td><td>Medalla de Plata en Campeonato Europeo de Cross (Toro 2007 y Tilburg 2005)</td></tr><tr><td>&nbsp;</td><td>Medalla de Oro en Campeonato Europeo de Atletismo P.C. en 3.000 m (Viena 2002)</td></tr><tr><td>&nbsp;</td><td>Medalla de Oro en Campeonato Europeo de Atletismo A.L. en 5.000 m (Munich 2002)</td></tr><tr><td>&nbsp;</td><td>Medalla de Oro en Juegos del Mediterráneo A.L. en 5.000 m (Bari 1997)</td></tr></table>">
+                    <img src="Images/carousel/Juan Carlos de la Ossa.jpg" alt="<table><tr><td style='width:23%; text-align:left'><strong>Juan Carlos de la Ossa</strong></td><td>Medalla de Bronce en Campeonato Europeo de Atletismo A.L. en 10.000 m (Göteborg 2006)</td></tr><tr><td>&nbsp;</td><td>Medalla de Plata en Campeonato Europeo de Cross (Legnano 2006 y Edimburgo 2003)</td></tr></table>">
+                    <img src="Images/carousel/Carlota Castrejana.jpg" alt="<table><tr><td style='width:20%; text-align:left'><strong>Carlota Castrejana</strong></td><td>Medalla de Oro en Campeonato Europeo de Atletismo P.C. en Triple Salto (Birmingham 2007)</td></tr><tr><td>&nbsp;</td><td>Medalla de Bronce en Campeonato Europeo P.C. en Triple Salto (Madrid 2005)</td></tr></table>">
+                    <img src="Images/carousel/Joan Lino.jpg" alt="<strong>Joan Lino</strong> Medalla de Bronce en Juegos Olímpicos en Salto de Longitud (Atenas 2004)">
+                    <img src="Images/carousel/Johan Cronje.jpg" alt="<strong>Johan Cronje</strong> (con Arturo Casado) Medalla de Bronce en Campeonato Mundial A.L. en 1.500 m (Moscú 2013)">
+                    <img src="Images/carousel/Angel David Rodriguez.jpg" alt="<table><tr><td style='width:30%; text-align:left'><strong>Angel David Rodríguez</strong></td><td>Campeón de España de 200 m lisos A.L. (2004, 2009, 2010 y 2011)</td></tr><tr><td>&nbsp;</td><td>Campeón de España de 100 m A.L. (2006, 2007, 2009, 2010, 2011 y 2012)</td></tr><tr><td>&nbsp;</td><td>Campeón de España de 60 m lisos P.C. (2007, 2008, 2009 y 2010)</td></tr></table>">
+                    <img src="Images/carousel/Cristina Pedroche.jpg" alt="<strong>Cristina Pedroche</strong> Presentadora de TV">
+                    <img src="Images/carousel/Jaime Cantizano.jpg" alt="<strong>Jaime Cantizano</strong> Presentador de TV">
+                    <img src="Images/carousel/Monica Martinez.jpg" alt="<strong>Mónica Martínez</strong> Presentadora de TV">
+                </div>
+
+                <!--<p id="alt-caption" style="width:90%; text-align:center"></p>-->
+            </div>
+
+            <p id="alt-caption" style="width:90%; text-align:center"></p>
+        </section>
+
+        <section id="location" class="contents">
+            <h3>UBICACIÓN</h3>
+
+            <p style="padding: 0px 10px">Gozamos de una ubicación privilegiada, cercana al <strong>Puente de Vallecas</strong> y a su Centro de Salud. Con accesos cómodos tanto desde la <strong>M30</strong>, <strong>A3</strong>, como desde el centro de la ciudad a través de la <strong>Avenida Ciudad de Barcelona</strong>.</p>
+
+            <div id="map"></div>
+            
+            <p id="pAddress">
+                Calle Emilio Ortuño, 6 - Local<br />
+                28038 Madrid<br />
+                Teléfonos: 91 501 95 68 - 664 23 93 45<br />
+                e-mail: <a href="mailto:novafis@hotmail.com">novafis@hotmail.com</a>
+            </p>
+
+            <table id="meansTransport" style="width:65%">
+                <tr>
+                    <th colspan="3"><span>Transporte público</span></th>
+                </tr>
+                <tr>
+                    <td style="width:10%; text-align:center; vertical-align:middle"><img src="Images/logoMetro.jpg" alt="Metro" height="45" width="45" /></td>
+                    <td><img src="Images/logoL1.png" alt="L1" height="20" width="20" /></td>
+                    <td><span>Puente de Vallecas (salida Peña Prieta)</span></td>
+                </tr>
+                <tr>
+                    <td style="width:10%; text-align:center; vertical-align:middle"><img src="Images/logoEMT.jpg" alt="EMT" height="30" width="30" /></td>
+                    <td colspan="2"><span>Líneas 8 - 10 - 24 - 37 - 54 - 56 - 57 - 58 - 111 - 113 - 136 - 141 - 148 - 310</span></td>
+                </tr>
+                <tr>
+                    <td colspan="3">&#160;</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="staff" class="contents">
+            <h3>EQUIPO PROFESIONAL</h3>
+
+            <table id="staffTable" style="width:80%">
+                <tr>
+                    <td class="photo"><img src="Images/favicon.gif" alt="Jose"/></td>
+                    <td class="cv">
+                        <strong>José Antonio Jiménez Domínguez</strong><br />
+                        COLEGIADO 1291 por el Ilustre Colegio de Fisioterapeutas de la Comunidad de Madrid<br />
+                        Diplomado en Fisioterapia por la Universidad Complutense de Madrid (1996-1999)<br />
+                        Fisioterapeuta colaborador de la Real Federación Española de Atletismo (2006-2008)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="photo"><img src="Images/favicon.gif" alt="Javi"/></td>
+                    <td class="cv">
+                        <strong>Javier Soler González</strong><br />
+                        COLEGIADO 3344 por el Ilustre Colegio de Fisioterapeutas de la Comunidad de Madrid<br />
+                        Diplomado por la Universidad Europea de Madrid (1998-2001)<br />
+                        Master en Osteopatía estructural por Gecosalud<br />
+                        Fisioterapeuta de la Selección Madrileña de Fútbol Sala (2007-2009)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+        </section>
+
+<div id="dialog" title="Psicoterapia">
+    <!--<div id="div1">-->
+        <img src="Images/psicoterapia.gif" width="400" height="500" alt="TRX" />
+    <!--</div>-->
+</div>
+
+
+        <footer>
+            <!--<div class="copyright">-->
+                <span class="address">NOVAFIS FISIOTERAPIA - Calle Emilio Ortuño, 6 - Local - Cita previa: 91 501 95 68 o 664 23 93 45</span>
+            <!--</div>-->
+
+            <div class="social" style="display:none">
+                <a href="http://www.linkedin.com/company/nasmeca" target="_blank">
+                    <img class="social-icon" src="Images/linkedin.png" alt="linkedin"/>
+                </a>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script type="text/javascript" src="Scripts/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="Scripts/jquery.cycle2.center.min.js"></script>
+        <script type="text/javascript" src="Scripts/nvfFunctions.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                $("#dialog").dialog({
+                    autoOpen: false,
+                    modal: true,
+                    minHeight: 500, 
+                    minWidth: 420
+                });
+
+                // $("#divPsicoterapia").click(function () {
+                //   $("#dialog").dialog("open");
+                // });
+            });
+        </script>
+
+
+    </body>
+</html>
